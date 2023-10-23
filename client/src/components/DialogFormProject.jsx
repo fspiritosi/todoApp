@@ -24,7 +24,7 @@ export function DialogFormProject() {
       <Dialog open={open} handler={handleOpen}>
         <DialogHeader className="w-full items-center">Crea tu Nuevo Proyecto</DialogHeader>
         <DialogBody className="flex items-center justify-center">
-          <FormProjectCreate state={open}/>
+          <FormProjectCreate/>
         </DialogBody>
         <DialogFooter>
           <Button
