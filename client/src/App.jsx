@@ -1,4 +1,3 @@
-import { Button } from "@material-tailwind/react";
 import {NavbarDark} from './components/Navbar'
 import { FooterWithLogo } from './components/Footer';
 import { DefaultTable } from './components/Table';
